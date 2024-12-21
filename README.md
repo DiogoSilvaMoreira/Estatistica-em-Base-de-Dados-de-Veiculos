@@ -3,9 +3,8 @@
 Objetivo:
 
 O objetivo deste projeto é adquirir conhecimentos sobre a manipulação de valores em variáveis simples com estruturas de controle, além de construir estatísticas a partir de dados lidos de um arquivo-texto.
-Descrição
 
-O aplicativo desenvolvido no projeto realiza a leitura de dados de veículos armazenados em um arquivo-texto e atualiza variáveis para calcular e apresentar as estatísticas solicitadas. Cada linha do arquivo contém informações sobre um veículo, incluindo modelo, marca, tipo, ano, quilometragem, potência do motor, combustível, câmbio, direção, cor, portas, placa e valor do veículo.
+Descrição: O aplicativo desenvolvido no projeto realiza a leitura de dados de veículos armazenados em um arquivo-texto e atualiza variáveis para calcular e apresentar as estatísticas solicitadas. Cada linha do arquivo contém informações sobre um veículo, incluindo modelo, marca, tipo, ano, quilometragem, potência do motor, combustível, câmbio, direção, cor, portas, placa e valor do veículo.
 
 Após a leitura do arquivo, o aplicativo apresentará as informações solicitadas de forma clara e objetiva, incluindo:
 
