@@ -34,8 +34,9 @@ O arquivo de entrada, chamado BD_veiculos.txt, deve conter um número indetermin
     Valor do veículo
 
 A última linha contém a palavra FIM no campo do modelo e não será considerada nos cálculos.
---------------------------------------------Exemplo de linha de dados--------------------------------------------------------------
-Fusca,Volkswagen,sedan,1975,150000,1.3,gasolina,manual,mecânica,azul,2,ABC1234,15000
+
+                               Exemplo de linha de dados
+--------- Fusca,Volkswagen,sedan,1975,150000,1.3,gasolina,manual,mecânica,azul,2,ABC1234,15000 ---------------
 
 Requisitos
 
