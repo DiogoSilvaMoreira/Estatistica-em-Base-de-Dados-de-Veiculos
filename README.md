@@ -1,4 +1,4 @@
-------------------------------------------- Projeto de Manipulação de Dados de Veículos ----------------------------------------------------------
+------------------------ Projeto de Manipulação de Dados de Veículos ------------------------------
 
 Objetivo:
 
