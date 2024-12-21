@@ -1,13 +1,66 @@
-Objetivo: adquirir conhecimentos de manipulação de valores em variáveis simples com estruturas de controle construindo estatísticas a partir de dados lidos de um arquivo-texto.
+------------------------------------------- Projeto de Manipulação de Dados de Veículos ----------------------------------------------------------
 
-Descrição: o aplicativo desenvolvido no projeto deve ler os dados de um arquivo-texto em variáveis simples e atualizar outras variáveis de forma que no final responder as informações solicitadas nos requisitos. Cada linha do arquivo de entrada tem informações de apenas um veículo, conforme o modelo apresentado no arquivo-texto de exemplo “BD_veiculos.txt”. A última linha, que não fará parte dos  cálculos, terá no nome do veículo a palavra “FIM”. Após o final de leitura do arquivo, o projeto deve apresentar de forma clara as informações solicitadas nos requisitos abaixo.
+Objetivo:
 
-Arquivo de Veículos: conterá um número indeterminado de linhas, onde cada linha conterá 10 campos: modelo, marca, tipo, ano, quilometragem, potência do motor, combustível, câmbio, direção, cor, portas, placa e valor do veículo.
+O objetivo deste projeto é adquirir conhecimentos sobre a manipulação de valores em variáveis simples com estruturas de controle, além de construir estatísticas a partir de dados lidos de um arquivo-texto.
+Descrição
 
-Requisitos: o aplicativo deverá apresentar as seguintes informações sobre a base de dados:
+O aplicativo desenvolvido no projeto realiza a leitura de dados de veículos armazenados em um arquivo-texto e atualiza variáveis para calcular e apresentar as estatísticas solicitadas. Cada linha do arquivo contém informações sobre um veículo, incluindo modelo, marca, tipo, ano, quilometragem, potência do motor, combustível, câmbio, direção, cor, portas, placa e valor do veículo.
 
-    porcentagens de veículos nas categorias de tipo;
-    porcentagem de veículos com câmbio automático e com direção hidráulica entre todos os veículos;
-    placa e valor do veículo mais barato entre os veículos com potência do motor 1.0, e ainda, valor da prestação do financiamento em 48 meses com taxa de juros atuais (consulte na internet);
-    placa e valor do veículo mais caro com direção hidráulica e combustível flex, e ainda, valor do seguro estimado (porcentagem estimada sobre o valor do veículo);
-    quantidade e média de kilometragem dos veículos com 5 anos ou mais (2018).
+Após a leitura do arquivo, o aplicativo apresentará as informações solicitadas de forma clara e objetiva, incluindo:
+
+    Porcentagem de veículos nas categorias de tipo;
+    Porcentagem de veículos com câmbio automático e direção hidráulica;
+    Veículo mais barato com motor 1.0, incluindo placa, valor e valor da prestação do financiamento em 48 meses com taxa de juros atual;
+    Veículo mais caro com direção hidráulica e combustível flex, incluindo placa, valor e valor estimado do seguro;
+    Quantidade e média de quilometragem dos veículos com 5 anos ou mais (a partir de 2018).
+
+Arquivo de Entrada:
+
+O arquivo de entrada, chamado BD_veiculos.txt, deve conter um número indeterminado de linhas, com cada linha representando um veículo. Cada linha contém 10 campos:
+
+    Modelo
+    Marca
+    Tipo
+    Ano
+    Quilometragem
+    Potência do motor
+    Combustível
+    Câmbio
+    Direção
+    Cor
+    Portas
+    Placa
+    Valor do veículo
+
+A última linha contém a palavra FIM no campo do modelo e não será considerada nos cálculos.
+--------------------------------------------Exemplo de linha de dados--------------------------------------------------------------
+Fusca,Volkswagen,sedan,1975,150000,1.3,gasolina,manual,mecânica,azul,2,ABC1234,15000
+
+Requisitos
+
+O aplicativo deverá apresentar as seguintes informações após a leitura do arquivo:
+
+    Porcentagens de veículos nas categorias de tipo: Percentual de veículos em cada categoria (ex: sedan, SUV, hatch, etc.).
+    Porcentagem de veículos com câmbio automático e direção hidráulica: Percentual de veículos com essas características.
+    Veículo mais barato entre os com motor 1.0:
+        Placa
+        Valor
+        Valor da prestação do financiamento em 48 meses (com taxa de juros atual).
+    Veículo mais caro com direção hidráulica e combustível flex:
+        Placa
+        Valor
+        Valor estimado do seguro (calculado como uma porcentagem do valor do veículo).
+    Quantidade e média de quilometragem dos veículos com 5 anos ou mais (a partir de 2018): Estatísticas sobre esses veículos.
+
+Tecnologias Utilizadas
+
+    Linguagem de programação: C++
+
+Como Executar
+
+    Clone o repositório.
+    Adicione o arquivo BD_veiculos.txt no mesmo diretório do projeto.
+    Execute o código para gerar as estatísticas.
+---
+
